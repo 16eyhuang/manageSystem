@@ -1,7 +1,7 @@
 <template>
   <div class="home-wrapper">
     <div class="home">
-      <a href="https://github.com" class="github-corner" target="_blank"
+      <a href="https://github.com/16eyhuang/manageSystem" class="github-corner" target="_blank"
          aria-label="Follow me on GitHub">
         <svg width="80" height="80" viewBox="0 0 250 250"
              style="httpfill:#409EFF; color:#fff; position: absolute; top: 0; border: 0; right: 0;cursor:pointer"
