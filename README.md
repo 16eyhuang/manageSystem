@@ -66,7 +66,7 @@ cd fontend
 npm install     // 首先安装前端的依赖包
 npm run dev     // 运行前端项目
 
-cd ../          //回到根目录即vue-full-stack-project
+cd ../          //回到根目录
 cd backend
 npm install     // 安装后端的依赖包
 export NODE_ENV=development;           // 这个命令是为了区分不同的环境来读取不同的配置
