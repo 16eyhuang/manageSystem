@@ -10,6 +10,7 @@ const upload=require('./api/upload/upload');    //上传相关的接口
 const spider=require('./api/spider/spider');    //爬虫
 const log=require('./api/log/log'); //日志相关的接口
 const todo=require('./api/todo/todo');  //todo相关的接口
+const _class=require('./api/class/class');  //课程相关的接口
 const avatar=require('./api/avatar/avatar');
 const tool=require('./common/tool');
 
@@ -116,7 +117,9 @@ router
     .post('/api/todo/deleteTodo',todo.deleteTodo)
     .post('/api/todo/updateTodoState',todo.updateTodoState)
     .post('/api/avatar/postAvatar',avatar.postAvatar)
-
+    .post('/api/class/getClassByName',_class.getClassByName)
+    .post('/api/class/getTeacherClassByName',_class.getTeacherClassByName)
+    .post('/api/class/getClassByFindObj',_class.getClassByFindObj)
 
 app.use(router.routes()).use(router.allowedMethods());
 

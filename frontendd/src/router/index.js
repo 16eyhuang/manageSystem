@@ -69,6 +69,11 @@ export const normalRouter=[
             path:'/account',
             component:resolve => require(['@/pages/account/account'],resolve),
             name:'账户设置'
+          },
+          {
+            path:'/class',
+            component:resolve => require(['@/pages/class/class'],resolve),
+            name:'课程表'
           }
         ]
       },
